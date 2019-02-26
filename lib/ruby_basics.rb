@@ -8,8 +8,8 @@ def assign_variable(value)
   value="Bob"
 end
 
-def argue
-
+def argue(phrase = "I'm right and you are wrong!")
+  phrase
 end
 
 def greeting
